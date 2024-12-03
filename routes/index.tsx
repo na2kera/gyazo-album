@@ -19,6 +19,12 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <a
+          href="/gyazo"
+          class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+        >
+          Gyazo
+        </a>
       </div>
     </div>
   );
