@@ -2,6 +2,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { load } from "https://deno.land/std@0.203.0/dotenv/mod.ts";
 
 export const handler: Handlers = {
+  //gyazoの画像を取得する
   async GET(_req, ctx) {
     await load({ export: true });
     const ACCESS_TOKEN = Deno.env.get("ACCESS_TOKEN");
