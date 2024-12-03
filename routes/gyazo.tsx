@@ -1,8 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { load } from "https://deno.land/std@0.203.0/dotenv/mod.ts";
 
-// const ACCESS_TOKEN = "MlZWkm3E54gkXqIqbdHi3h6Xw4b6aYy9HXJeTC2mfBU";
-
 export const handler: Handlers = {
   async GET(_req, ctx) {
     await load({ export: true });
