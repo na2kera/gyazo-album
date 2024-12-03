@@ -15,3 +15,5 @@ deno task start
 
 This will watch the project directory and restart as necessary.
 # gyazo-app
+https://na2kera-gyazo-album-78.deno.dev/
+
