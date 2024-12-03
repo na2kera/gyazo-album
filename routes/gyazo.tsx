@@ -20,7 +20,6 @@ export const handler: Handlers = {
 
 export default function Home(props: PageProps<any>) {
   const data = props.data;
-  console.log(data);
 
   return (
     <div class="px-4 py-8 mx-auto bg-[#86efac]">
